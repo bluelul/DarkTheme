@@ -10,6 +10,16 @@ Email: wblekhoa@gmail.com */
 
 /* Modifier: Le Thanh Tung - lttung1197 */
 
+/* install with this extension: https://chrome.google.com/webstore/detail/minimal-scrollbar/ekopmclclddpoipchmcbhifohhbmjafd?hl=vi */
+
+/* Credit - Custom Facebook Appearance - JAK's Dark theme
+//Graphic Designer
+Thằng vọc css (Author): JAK Khoa
+Facebook: /wblekhoa (Lê Khoa (JAK))
+Email: wblekhoa@gmail.com */
+
+/* facebook color --mainC2: #3578e5; */
+
 :root {
 --mainC1: #1d1d1d;
 --mainC2: #464646;
@@ -49,18 +59,18 @@ Email: wblekhoa@gmail.com */
 }
 
 *::-webkit-scrollbar-track, .scrollable::-webkit-scrollbar-track {
-    background-color: var(--darkC3) !important;
-    border-radius: 0 !important
+    /*background-color: var(--darkC3) !important;*/
+    border-radius: 10 !important
 }
 
 *::-webkit-scrollbar, .scrollable::-webkit-scrollbar {
-    width: 10px !important;
-    background-color: var(--darkC1) !important
+    width: 5px !important;
+    /*background-color: var(--darkC1) !important*/
 }
 
 *::-webkit-scrollbar-thumb, .scrollable::-webkit-scrollbar-thumb {
-    border-radius: 0px !important;
-    background-color: var(--mainC2) !important;
+    border-radius: 10px !important;
+    background-color: var(--darkC1) !important;
     box-shadow: 0px 15px 15px -4px var(--mainC2) !important
 }
 
@@ -2437,7 +2447,7 @@ h1, h2, h3, h4, h5, h6, body p, ._31yn,  ._55oc, ._m_1 ._2aha, ._1pek ._3qpq, ._
 ._1fvt ._26w9, ._56oy ._4mnq, ._4b0x, html ._4lh ._2-d1 ._3rrn>a, ._3oc7 ._3oc8, ._3cg3 { /* bdm2 */
     border-color: var(--mainC2)!important;
 }
-._5vwy ._13xf, ._5vwz ._13xf, ._47__::before, ._5dwa ._45hc._1hqh ._c1c, ._4qr4 ._16ve ._437z, ._5afe::after, ._3o_h::after, ._2yaa ._2yau::after, ._4kad:before, ._146s ._5dwo, ._nd_ ._hh7._6ybn, ._5aep._5aer ._5aeo, ._5aeq._4hag, .navHeader ._1pej::after, ._3m75 .sideNavItem ._5afe::after, ._1r00, ._1r01 { /* bgm2 */
+._5vwy ._13xf, ._5vwz ._13xf, ._47__::before, ._5dwa ._45hc._1hqh ._c1c, ._4qr4 ._16ve ._437z, ._5afe::after, ._3o_h::after, ._2yaa ._2yau::after, ._4kad:before, ._146s ._5dwo, ._5aep._5aer ._5aeo, ._5aeq._4hag, .navHeader ._1pej::after, ._3m75 .sideNavItem ._5afe::after, ._1r00, ._1r01 { /* bgm2 */
     background: var(--gradient2)!important;
 }
 ._5vsj .UFIRow.UFIUnseenItem:after, ._5ugg, ._3z_5, ._p20::before { /* bgm2 */
